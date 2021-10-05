@@ -1,0 +1,32 @@
+{
+  "categories": {
+    "Libertarianism": {
+      "order": 0,
+      "items": [
+        {
+          "title": "Ellsworth Toohey on How to Rule Souls (from \"The Fountainhead\")",
+          "link": "http://www.greenspun.com/bboard/q-and-a-fetch-msg.tcl?msg_id=004FMp",
+          "description": "",
+          "uuid": "efec27f7-a455-41fc-8ef8-f72ff56adcc1"
+        },
+        {
+          "title": "Libertarian Factsheet",
+          "link": "https://docs.google.com/document/d/1f4MupVrgz_YcsDXGOdTHyOBDVBEn_s_IVgqyrURvPX4/edit#",
+          "description": "",
+          "uuid": "e6beb7f3-3c26-414c-940c-3af8a62ad075"
+        }
+      ]
+    },
+    "Right Wing": {
+      "order": 0,
+      "items": [
+        {
+          "title": "Right Wing Factsheet",
+          "link": "https://docs.google.com/document/d/10i7GdDU_TFMybmxokyXdMjvhJTqC4Tk-TM3pUGhoPdI/edit",
+          "description": "",
+          "uuid": "7c1bb043-ab58-417e-a990-1d23c4a1feba"
+        }
+      ]
+    }
+  }
+}
