@@ -1,10 +1,12 @@
+$PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"
+
 Function Add-Link {
     param(
         $Link, 
         $Title,
         $Description,
         $Category = 'misc',
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath        
     )
 
     # Compile script to be run on the linux host
@@ -22,7 +24,7 @@ Export-ModuleMember -Function Add-Link
 Function Remove-Link {
     param(
         $uuid, 
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath        
     )
 
     # Compile script to be run on the linux host
@@ -41,7 +43,7 @@ Function Move-Link {
     param(
         $UUID, 
         $TargetCategory,
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath
     )
 
     # Compile script to be run on the linux host
@@ -59,7 +61,7 @@ Export-ModuleMember -Function Move-Link
 Function Get-Link {
     param(
         $Category = $null,
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath     
     )
 
     # Compile script to be run on the linux host
@@ -79,7 +81,7 @@ Export-ModuleMember -Function Get-Link
 
 Function Get-Category {
     param(
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath        
     )
 
     # Compile script to be run on the linux host
@@ -97,7 +99,7 @@ Function Set-Category {
     param(
         $Category,
         $Order,
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath        
     )
 
     # Compile script to be run on the linux host
@@ -116,7 +118,7 @@ Function Remove-Category {
     param(
         $Category,
         $TargetCategory,
-        $PrivateKeyPath = "C:\Users\Installer\.ssh\pushvid.ppk"        
+        $PrivateKeyPath = $script:PrivateKeyPath        
     )
 
     # Compile script to be run on the linux host
