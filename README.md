@@ -14,6 +14,8 @@ Simple hobby project to manage links on devfruits homepage via powershell interf
 - You can also load the functions seperately, but you'll have to do that then every time you start powershell
 
 # Commands
+The powershell interface adds a call to publish.py to every action that edits the link list. Publish.py creates a new index.html based on the info in links.json.
+
 ## Add-Link
 - add.py
 - Adds a link to a category. If the category does not exist, it will be created.
