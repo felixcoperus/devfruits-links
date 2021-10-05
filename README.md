@@ -9,10 +9,10 @@ Simple hobby project to manage links on devfruits homepage via powershell interf
 ## Use powershell interface
 - Create the folder '~/Documents/WindowsPowershell/Modules/MyModule`
 - Put the Module.ps1 file into that folder, and rename it to 'MyModule.ps1'
+- Edit the first line to point to a private ssh key file that has been granted access on the webserver 
 - Run `Import-Module MyModule`
-- Either pass in the full link to your own private key file that has been installed on the webserver every time that you run a command, or edit the code to point to it by default.
 - Now you can use the functions in that module.
-- You can also load the functions seperately, but you'll have to do that then every time you start powershell
+- You can also load the functions seperately, but you'll have to do that then every time you start powershell, and you'll have to pass in the private key file by hand.
 
 # Commands
 The powershell interface adds a call to publish.py to every action that edits the link list. Publish.py creates a new index.html based on the info in links.json.
