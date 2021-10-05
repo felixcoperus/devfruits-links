@@ -10,6 +10,7 @@ Simple hobby project to manage links on devfruits homepage via powershell interf
 - Create the folder '~/Documents/WindowsPowershell/Modules/MyModule`
 - Put the Module.ps1 file into that folder, and rename it to 'MyModule.ps1'
 - Run `Import-Module MyModule`
+- Either pass in the full link to your own private key file that has been installed on the webserver every time that you run a command, or edit the code to point to it by default.
 - Now you can use the functions in that module.
 - You can also load the functions seperately, but you'll have to do that then every time you start powershell
 
